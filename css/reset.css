@@ -17,8 +17,8 @@
 }
 
 /* Remove default list styling */
-ol[role="list"],
-ul[role="list"] {
+ol,
+ul {
     list-style: none;
     padding-inline: 0;
 }
