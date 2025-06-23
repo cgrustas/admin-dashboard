@@ -6,31 +6,26 @@
  */
 @import 'node_modules/modern-normalize/modern-normalize.css';
 
-/* Clear margins */
 * {
     margin: 0;
 }
 
-/* Improve line height */
 :root {
     line-height: 1.5;
 }
 
-/* Remove default list styling */
 ol,
 ul {
     list-style: none;
     padding-inline: 0;
 }
 
-/* Add responsive media elements */
 img,
 svg {
     display: block;
     max-inline-size: 100%;
 }
 
-/* Avoid text overflows */
 p,
 h1,
 h2,
@@ -42,7 +37,6 @@ h6 {
 }
 
 
-/* Improve line wrapping for headings */
 h1,
 h2,
 h3,
@@ -52,7 +46,6 @@ h6 {
     text-wrap: balance;
 }
 
-/* Improve line wrapping for paragraphs */
 p {
     text-wrap: pretty;
 }
