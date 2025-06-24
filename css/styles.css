@@ -1,0 +1,25 @@
+/* Assign grid areas */
+.sidebar {
+    grid-area: sidebar;
+}
+
+.header {
+    grid-area: header;
+}
+
+.main {
+    grid-area: main;
+}
+
+
+/* 'body' grid container holds: 
+    - 2 cols:
+        - col1: sidebar
+            - dimensions: 140px / 640px = 20% = 1/5fr
+        - col2: header + main 
+            - dimensions: 500px / 640px = 80% = 4/5fr
+    - 2 rows:
+        - row1: sidebar + header
+            - dimensions: 80px / 460px = 
+        - row2: sidebar + main
+*/
