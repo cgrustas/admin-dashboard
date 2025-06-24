@@ -11,15 +11,59 @@
     grid-area: main;
 }
 
+/* RATIO CALCULATIONS */
+/* 'body' ratios: (width / height)
+    - Viewport: 2900 / 2050
+    - Sidebar: 600 / 2050
+        - width: 600 / 2900 = 20% = 1/5fr
+        - height: 2050 / 2050 = 100% = 5/5fr
+    - Header: 2270 / 360
+        - width: 4/5fr
+        - height: 360 / 2050 = 20% = 1/5fr
+    - Main: 2275 / 1700
+        - Projects: 1570 / 1500
+        - height: 5/5fr - 1/5fr = 4/5fr
+*/
+/* 'header' ratios:
+    - (system-bar + action-bar) height: 250
+    - system-bar row height: 100 / 250 = 40% = 2/5fr
+    - action-bar row height: 150 / 250 = 60% = 3/5fr
+*/
+/* 'system-bar' ratios:
+    - (search-bar + user-bar) width: 1700
+    - search-bar width: 1210 / 1700 = 70% = 7/10fr
+    - user-menu width: 515 = 3/10fr
+ */
+/* 'action-bar' ratios: 
+    - header width: 2270
+    - user-greeting: 780 / 2270 = 33%
+    - 
+*/
+
 
 /* 'body' grid container holds: 
-    - 2 cols:
-        - col1: sidebar
-            - dimensions: 140px / 640px = 20% = 1/5fr
-        - col2: header + main 
-            - dimensions: 500px / 640px = 80% = 4/5fr
     - 2 rows:
-        - row1: sidebar + header
-            - dimensions: 80px / 460px = 
+        - row1: sidebar + header ()
         - row2: sidebar + main
+    - 2 cols:
+        - col1: sidebar (1/5fr)
+        - col2: header + main (4/5fr)
+*/
+
+
+/* LAYOUT TEMPLATE */
+/* 'header' flex container holds:
+    - row1: system-bar (if needed, flex: 2)
+    - row2: action-bar (if needed, flex: 3)
+*/
+
+/* 'system-bar' flex container holds: 
+    - col1: search bar (flex: 7)
+    - col2: user-menu (flex: 3)
+*/
+
+/* 'action-bar' flex-container contains: 
+    - col1: user-greeting
+    - col2: 
+
 */
