@@ -9,6 +9,15 @@ body {
 
 .sidebar {
     grid-area: sidebar;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.sidebar nav {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
 }
 
 header {
