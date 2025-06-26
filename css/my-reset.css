@@ -4,7 +4,6 @@
  * Globally apply box-sizing: border-box
  * Ensure that form elements inherit the document’s font and text size
  */
-@import 'node_modules/modern-normalize/modern-normalize.css';
 
 * {
     margin: 0;
