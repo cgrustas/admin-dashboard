@@ -28,14 +28,19 @@ header {
 
 .system-bar {
     display: flex;
+    padding: 0 6rem;
+    justify-content: space-between;
 }
 
 form {
-    flex: 7;
+    width: 60%;
+}
+
+input {
+    width: 100%;
 }
 
 .user-menu {
-    flex: 3;
     display: flex;
 }
 
