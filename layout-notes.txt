@@ -70,9 +70,9 @@
 */
 
 /* 'user-menu' flex container holds:
-    - notification-bell (flex: 1)
-    - Morgan's avatar (flex: 1)
-    - user-fullname (flex: 1)
+    - notification-bell 
+    - Morgan's avatar 
+    - user-fullname 
 */
 
 /* 'action-bar' flex container holds: 

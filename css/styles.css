@@ -44,6 +44,10 @@ input {
     display: flex;
 }
 
+.notification-bell {
+    width: 3rem;
+}
+
 main {
     grid-area: main;
 }
