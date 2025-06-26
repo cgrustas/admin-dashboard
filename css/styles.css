@@ -1,18 +1,4 @@
-/* Assign grid areas */
-.sidebar {
-    grid-area: sidebar;
-}
-
-.header {
-    grid-area: header;
-}
-
-.main {
-    grid-area: main;
-}
-
-/* Implement main grid layout for body container */
-/* body {
+body {
     display: grid;
     grid-template-areas: 
         "sidebar header"
@@ -31,4 +17,4 @@ header {
 
 main {
     grid-area: main;
-} */
+}
