@@ -14,10 +14,9 @@ body {
     gap: 3rem;
 }
 
-.sidebar nav {
+nav {
     display: flex;
     flex-direction: column;
-    gap: 3rem;
 }
 
 header {
@@ -64,24 +63,16 @@ input {
     height: 80px;
 }
 
-.user-greeting h2 * {
-    display: block;
-}
-
 .action-bar .actions {
     display: flex;
     gap: 48px;
     align-items: center;
 }
 
-.action-bar .actions li {
-    flex: 1;
-    min-width: 0;
-}
-
 .action-bar .actions button {
     appearance: none;
-    width: 100%;
+    flex: 1;
+    min-width: 0;
     display: flex;
     justify-content: center;
 }

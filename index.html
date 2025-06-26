@@ -13,20 +13,18 @@
 <body>
     <div class="sidebar">
         <h1>Dashboard</h1>
-        <nav>
-            <ul class="nav-activities">
-                <li><a href="#" class="home">Home</a></li>
-                <li><a href="#" class="profile">Profile</a></li>
-                <li><a href="#" class="messages">Messages</a></li>
-                <li><a href="#" class="history">History</a></li>
-                <li><a href="#" class="tasks">Tasks</a></li>
-                <li><a href="#" class="communities">Communities</a></li>
-            </ul>
-            <ul class="nav-support">
-                <li><a href="#" class="settings">Settings</a></li>
-                <li><a href="#" class="support">Support</a></li>
-                <li><a href="#" class="privacy">Privacy</a></li>
-            </ul>
+        <nav class="activities">
+            <a href="#" class="home">Home</a>
+            <a href="#" class="profile">Profile</a>
+            <a href="#" class="messages">Messages</a>
+            <a href="#" class="history">History</a>
+            <a href="#" class="tasks">Tasks</a>
+            <a href="#" class="communities">Communities</a>
+        </nav>
+        <nav class="support">
+            <a href="#" class="settings">Settings</a>
+            <a href="#" class="support">Support</a>
+            <a href="#" class="privacy">Privacy</a>
         </nav>
     </div>
     <header>
@@ -46,16 +44,16 @@
         <div class="action-bar">
             <div class="user-greeting">
                 <img src="images/morgan.jpg" alt="Morgan's avatar" class="avatar">
-                <h2>
-                    <span class="welcome">Hi there,</span>
-                    <span class="user">Morgan Oakley (@morgan)</span>
-                </h2>
+                <div class="welcome-text">
+                    <h6>Hi there,</h6>
+                    <h2>Morgan Oakley (@morgan)</h2>
+                </div>
             </div>
-            <ul class="actions">
-                <li><button class="btn-new" type="button">New</button></li>
-                <li><button class="btn-upload" type="button">Upload</button></li>
-                <li><button class="btn-share" type="button">Share</button></li>
-            </ul>
+            <div class="actions">
+                <button class="btn-new" type="button">New</button>
+                <button class="btn-upload" type="button">Upload</button>
+                <button class="btn-share" type="button">Share</button>
+            </div>
         </div>
     </header>
     <main>
@@ -68,13 +66,13 @@
                         accumsan nec.</p>
                     <footer class="actions">
                         <button class="favorite" type="button" aria-label="add to favorites">
-                            <svg><!-- Insert here --></svg>
+                            <img src="images/favorite.svg" alt="">
                         </button>
                         <button class="view" type="button" aria-label="view project details">
-                            <svg><!-- Insert here --></svg>
+                            <img src="images/view.svg" alt="">
                         </button>
                         <button class="fork" type="button" aria-label="fork this project">
-                            <svg><!-- Insert here --></svg>
+                            <img src="" alt="">
                         </button>
                     </footer>
                 </article>
@@ -85,13 +83,13 @@
                     </p>
                     <footer class="actions">
                         <button class="favorite" type="button" aria-label="add to favorites">
-                            <svg><!-- Insert here --></svg>
+                            <img src="images/favorite.svg" alt="">
                         </button>
                         <button class="view" type="button" aria-label="view project details">
-                            <svg><!-- Insert here --></svg>
+                            <img src="images/view.svg" alt="">
                         </button>
                         <button class="fork" type="button" aria-label="fork this project">
-                            <svg><!-- Insert here --></svg>
+                            <img src="images/fork.svg" alt="">
                         </button>
                     </footer>
                 </article>
@@ -100,13 +98,13 @@
                     <p>In hac habitasse platea dictumst. Vivamus dictum rutrum arcu, a placerat velit sagittis id.</p>
                     <footer class="actions">
                         <button class="favorite" type="button" aria-label="add to favorites">
-                            <svg><!-- Insert here --></svg>
+                            <img src="images/favorite.svg" alt="">
                         </button>
                         <button class="view" type="button" aria-label="view project details">
-                            <svg><!-- Insert here --></svg>
+                            <img src="images/view.svg" alt="">
                         </button>
                         <button class="fork" type="button" aria-label="fork this project">
-                            <svg><!-- Insert here --></svg>
+                            <img src="images/fork.svg" alt="">
                         </button>
                     </footer>
                 </article>
@@ -116,13 +114,13 @@
                         Curabitur dignissim nisi in tortor commodo, ac bibendum magna tincidunt.</p>
                     <footer class="actions">
                         <button class="favorite" type="button" aria-label="add to favorites">
-                            <svg><!-- Insert here --></svg>
+                            <img src="images/favorite.svg" alt="">
                         </button>
                         <button class="view" type="button" aria-label="view project details">
-                            <svg><!-- Insert here --></svg>
+                            <img src="images/view.svg" alt="">
                         </button>
                         <button class="fork" type="button" aria-label="fork this project">
-                            <svg><!-- Insert here --></svg>
+                            <img src="images/fork.svg" alt="">
                         </button>
                     </footer>
                 </article>
@@ -132,13 +130,13 @@
                         Aliquam sed malesuada eros.</p>
                     <footer class="actions">
                         <button class="favorite" type="button" aria-label="add to favorites">
-                            <svg><!-- Insert here --></svg>
+                            <img src="images/favorite.svg" alt="">
                         </button>
                         <button class="view" type="button" aria-label="view project details">
-                            <svg><!-- Insert here --></svg>
+                            <img src="images/view.svg" alt="">
                         </button>
                         <button class="fork" type="button" aria-label="fork this project">
-                            <svg><!-- Insert here --></svg>
+                            <img src="images/fork.svg" alt="">
                         </button>
                     </footer>
                 </article>
@@ -148,13 +146,13 @@
                         tortor purus sit amet ex. Pellentesque mollis nec sem vel aliquam.</p>
                     <footer class="actions">
                         <button class="favorite" type="button" aria-label="add to favorites">
-                            <svg><!-- Insert here --></svg>
+                            <img src="images/favorite.svg" alt="">
                         </button>
                         <button class="view" type="button" aria-label="view project details">
-                            <svg><!-- Insert here --></svg>
+                            <img src="images/view.svg" alt="">
                         </button>
                         <button class="fork" type="button" aria-label="fork this project">
-                            <svg><!-- Insert here --></svg>
+                            <img src="images/fork.svg" alt="">
                         </button>
                     </footer>
                 </article>
@@ -162,62 +160,48 @@
         </section>
         <section class="announcements">
             <h2>Announcements</h2>
-            <ul>
-                <li>
-                    <article>
-                        <h3>Site Maintenance</h3>
-                        <p>Vestibulum condimentum tellus lacus, in accumsan elit maximus ac. Donec hendrerit sodales
-                            congue...</p>
-                    </article>
-                </li>
-                <li>
-                    <article>
-                        <h3>Community Share Day</h3>
-                        <p>Nam vel lectus tincidunt, rutrum nulla eu, ornare libero. Aliquam dictum accumsan
-                            porttitor...</p>
-                    </article>
-                </li>
-                <li>
-                    <article>
-                        <h3>Updated Privacy Policy</h3>
-                        <p>Phasellus efficitur nisi eget elit consectetur, eget condimentum ante auctor. Cras fringilla
-                            sagittis sem in mattis...</p>
-                    </article>
-                </li>
+            <div class="content">
+                <article>
+                    <h3>Site Maintenance</h3>
+                    <p>Vestibulum condimentum tellus lacus, in accumsan elit maximus ac. Donec hendrerit sodales
+                        congue...</p>
+                </article>
+                <article>
+                    <h3>Community Share Day</h3>
+                    <p>Nam vel lectus tincidunt, rutrum nulla eu, ornare libero. Aliquam dictum accumsan
+                        porttitor...</p>
+                </article>
+                <article>
+                    <h3>Updated Privacy Policy</h3>
+                    <p>Phasellus efficitur nisi eget elit consectetur, eget condimentum ante auctor. Cras fringilla
+                        sagittis sem in mattis...</p>
+                </article>
             </ul>
         </section>
         <section class="trending">
             <h2>Trending</h2>
-            <ul class="trending-users">
-                <li>
-                    <a>
-                        <img src="images/teagan.jpg" alt="Teagan's avatar" class="avatar">
-                        <h3 class="username">@teagan</h3>
-                        <span class="bio">World Peace Builder</span>
-                    </a>
-                </li>
-                <li>
-                    <a>
-                        <img src="images/morgan.jpg" alt="Morgan's avatar" class="avatar">
-                        <h3 class="username">@morgan</h3>
-                        <span class="bio">Super Cool Project</span>
-                    </a>
-                </li>
-                <li>
-                    <a>
-                        <img src="images/kendall.jpg" alt="Kendall's avatar" class="avatar">
-                        <h3 class="username">@kendall</h3>
-                        <span class="bio">Life Changing App</span>
-                    </a>
-                </li>
-                <li>
-                    <a>
-                        <img src="images/alex.jpg" alt="Alex's avatar" class="avatar">
-                        <h3 class="username">@alex</h3>
-                        <span class="bio">No Traffic Maker</span>
-                    </a>
-                </li>
-            </ul>
+            <div class="trending-users">
+                <a>
+                    <img src="images/teagan.jpg" alt="Teagan's avatar" class="avatar">
+                    <h3 class="username">@teagan</h3>
+                    <h6 class="bio">World Peace Builder</h6>
+                </a>
+                <a>
+                    <img src="images/morgan.jpg" alt="Morgan's avatar" class="avatar">
+                    <h3 class="username">@morgan</h3>
+                    <h6 class="bio">Super Cool Project</h6>
+                </a>
+                <a>
+                    <img src="images/kendall.jpg" alt="Kendall's avatar" class="avatar">
+                    <h3 class="username">@kendall</h3>
+                    <h6 class="bio">Life Changing App</h6>
+                </a>
+                <a>
+                    <img src="images/alex.jpg" alt="Alex's avatar" class="avatar">
+                    <h3 class="username">@alex</h3>
+                    <h6 class="bio">No Traffic Maker</h6>
+                </a>
+            </div>
         </section>
     </main>
 </body>
