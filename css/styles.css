@@ -12,6 +12,7 @@
 }
 
 /* RATIO CALCULATIONS */
+
 /* 'body' ratios: (width / height)
     - Viewport: 2900 / 2050
     - Sidebar: 600 / 2050
@@ -24,34 +25,62 @@
         - Projects: 1570 / 1500
         - height: 5/5fr - 1/5fr = 4/5fr
 */
+
 /* 'header' ratios:
     - (system-bar + action-bar) height: 250
     - system-bar row height: 100 / 250 = 40% = 2/5fr
     - action-bar row height: 150 / 250 = 60% = 3/5fr
 */
+
 /* 'system-bar' ratios:
     - (search-bar + user-bar) width: 1700
     - search-bar width: 1210 / 1700 = 70% = 7/10fr
     - user-menu width: 515 = 3/10fr
  */
+
 /* 'action-bar' ratios: 
-    - header width: 2270
+    - actions: 720 (including 60px gap between buttons)
     - user-greeting: 780 / 2270 = 33%
-    - 
 */
 
+/* 'main' ratios: 
+    - projects: 1575 / 1500
+    - announcements: 550 / 720
+    - trending: 550 / 700
+*/
 
-/* 'body' grid container holds: 
-    - 2 rows:
-        - row1: sidebar + header ()
-        - row2: sidebar + main
-    - 2 cols:
-        - col1: sidebar (1/5fr)
-        - col2: header + main (4/5fr)
+/* 'project ratios': 
+    - h3 height: 45
+    - card height: 440
 */
 
 
 /* LAYOUT TEMPLATE */
+
+/* 'body' grid container holds: 
+    - 2 rows (5fr):
+        - row1: sidebar + header (1fr)
+        - row2: sidebar + main (4fr)
+    - 2 cols (5fr):
+        - col1: sidebar (1fr)
+        - col2: header + main (4fr)
+*/
+
+/* 'sidebar' grid container holds: 
+    - Dashboard
+    - .
+    - home
+    - profile
+    - messages
+    - history
+    - tasks
+    - communities
+    - . 
+    - settings
+    - support
+    - privacy
+*/
+
 /* 'header' flex container holds:
     - row1: system-bar (if needed, flex: 2)
     - row2: action-bar (if needed, flex: 3)
@@ -62,8 +91,66 @@
     - col2: user-menu (flex: 3)
 */
 
-/* 'action-bar' flex-container contains: 
-    - col1: user-greeting
-    - col2: 
-
+/* 'action-bar' flex container holds: 
+    - col1: user-greeting (1fr)
+    - col2: actions (1fr)
+    - justify-content: space-between
 */
+
+/* 'user-greeting' grid container holds:
+    - row1: avatar + "hi there,"
+    - row2: avatar + name
+    - col1: Morgan's avatar
+    - col2: Welcome text 
+ */
+
+/* 'actions' flex container holds:
+    - New button (flex: 1)
+    - Upload button (flex: 1)
+    - Share button (flex: 1)
+*/
+
+/* 'main' grid container holds: 
+    - row1: projects + announcements (1fr)
+    - row2: projects + trending (1fr)
+
+    - col1: projects (3fr)
+    - col2: announcements + trending (1fr)
+*/
+
+/* 'projects' grid container holds: 
+    - row1: header (.1fr)
+    - row2-4: cards (1fr, 1fr, 1fr)
+    - col1: header, cards (1fr)
+    - col2: cards (1fr)
+*/
+
+/* 'card' flex container holds: 
+    - project title (flex: initial)
+    - project description (flex: initial)
+    - action buttons (flex: initial)
+*/
+
+/* 'card-actions' flex container holds: 
+    - favorite (flex: 1)
+    - view (flex: 1)
+    - fork (flex: 1)
+*/
+
+/* 'announcements' flex container holds: 
+    - h3
+    - articles
+*/
+
+/* 'trending' flex container holds: 
+    - h3
+    - links
+*/
+
+/* 'trending-links' flex container holds: 
+    - row1: avatar + username
+    - row2: avatar + bio
+    - col1: avatar
+    - col2: username + bio
+*/
+
