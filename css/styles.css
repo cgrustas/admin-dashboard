@@ -68,6 +68,11 @@ input {
     display: block;
 }
 
+.action-bar .actions {
+    display: flex;
+    gap: 48px;
+}
+
 main {
     grid-area: main;
 }
