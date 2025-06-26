@@ -69,6 +69,12 @@
     - col2: user-menu (flex: 3)
 */
 
+/* 'user-menu' flex container holds:
+    - notification-bell (flex: 1)
+    - Morgan's avatar (flex: 1)
+    - user-fullname (flex: 1)
+*/
+
 /* 'action-bar' flex container holds: 
     - col1: user-greeting (1fr)
     - col2: actions (1fr)

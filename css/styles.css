@@ -26,6 +26,19 @@ header {
     flex-direction: column;
 }
 
+.system-bar {
+    display: flex;
+}
+
+form {
+    flex: 7;
+}
+
+.user-menu {
+    flex: 3;
+    display: flex;
+}
+
 main {
     grid-area: main;
 }
