@@ -44,13 +44,28 @@ input {
     display: flex;
 }
 
+/* .notification-bell {
+    width: 3rem;
+} */
+
 .action-bar {
     display: flex;
     justify-content: space-between;
 }
 
-.notification-bell {
-    width: 3rem;
+.user-greeting {
+    display: grid;
+    grid-template-columns: auto max-content;
+    align-items: center;
+}
+
+.user-greeting img {
+    width: 80px;
+    height: 80px;
+}
+
+.user-greeting h2 * {
+    display: block;
 }
 
 main {
