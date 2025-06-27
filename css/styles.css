@@ -121,6 +121,8 @@ main {
 
 .announcements {
     grid-area: announcements;
+    display: flex;
+    flex-direction: column;
 }
 
 .trending {
