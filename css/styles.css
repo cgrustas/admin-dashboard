@@ -93,6 +93,26 @@ main {
     flex-direction: column;
 }
 
+
+.projects .content {
+    display: grid;
+    grid-template-columns: (auto-fit, minmax(250px, 1fr));
+}
+
+
+/* 
+Implement project article flex layout 
+
+A project holds: 
+ - project title (flex: initial)
+ - project description (flex: initial)
+ - action buttons (flex: initial)
+*/
+/* .projects article {
+    display: flex;
+    flex-direction: column;
+} */
+
 .announcements {
     grid-area: announcements;
 }
