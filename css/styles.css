@@ -104,10 +104,9 @@ main {
     flex-direction: column;
 }
 
-/* Position project buttons to card's bottom right */
-/* .projects article p {
+ .projects article p {
     flex: 1;
-} */
+}
 
 .projects article .actions {
     display: flex;
@@ -115,10 +114,10 @@ main {
     gap: 1rem;
 }
 
-/* .projects article .actions > button {
+.projects article .actions>button {
     width: 2rem;
     height: 2rem;
-} */
+}
 
 .announcements {
     grid-area: announcements;
