@@ -25,21 +25,6 @@ nav {
     flex-direction: column;
 }
 
-Add/center corresponding SVG to dashboard h1
-.sidebar h1 {
-    font-size: 2rem;
-    display: flex;
-    align-items: center;
-    gap: .5rem;
-}
-
-.sidebar h1::before {
-    content: url("../images/dashboard.svg");
-    display: inline-block;
-    height: 2.5rem;
-    width: 2.5rem;
-}
-
 header {
     grid-area: header;
     display: flex;
