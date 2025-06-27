@@ -132,6 +132,8 @@ main {
 
 .trending {
     grid-area: trending;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Temporary constraint for avatar images during development */
