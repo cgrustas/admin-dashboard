@@ -96,12 +96,29 @@ main {
 .projects .content {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    /* grid-auto-rows: 1fr; */
 }
 
 .projects article {
     display: flex;
     flex-direction: column;
 }
+
+/* Position project buttons to card's bottom right */
+/* .projects article p {
+    flex: 1;
+} */
+
+.projects article .actions {
+    display: flex;
+    align-self: flex-end;
+    gap: 1rem;
+}
+
+/* .projects article .actions > button {
+    width: 2rem;
+    height: 2rem;
+} */
 
 .announcements {
     grid-area: announcements;
