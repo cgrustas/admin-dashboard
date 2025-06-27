@@ -125,6 +125,11 @@ main {
     flex-direction: column;
 }
 
+.announcements article {
+    display: flex;
+    flex-direction: column;
+}
+
 .trending {
     grid-area: trending;
 }
