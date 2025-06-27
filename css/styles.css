@@ -111,7 +111,7 @@ main {
 .projects article .actions {
     display: flex;
     align-self: flex-end;
-    gap: 1rem;
+    gap: 16px;
 }
 
 .projects article .actions>button {
