@@ -141,6 +141,26 @@ main {
     flex-direction: column;
 }
 
+.trending-users a {
+    display: grid;
+    grid-template-areas: 
+        "avatar username"
+        "avatar bio";
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.trending-users img {
+    grid-area: avatar;
+}
+
+.trending-users h3 {
+    grid-area: username;
+}
+
+.trending-users h6 {
+    grid-area: bio;
+}
+
 /* Temporary constraint for avatar images during development */
 .avatar {
     width: 40px;
