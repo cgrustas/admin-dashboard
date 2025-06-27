@@ -104,7 +104,7 @@ main {
     flex-direction: column;
 }
 
- .projects article p {
+.projects article p {
     flex: 1;
 }
 
@@ -132,6 +132,11 @@ main {
 
 .trending {
     grid-area: trending;
+    display: flex;
+    flex-direction: column;
+}
+
+.trending-users {
     display: flex;
     flex-direction: column;
 }

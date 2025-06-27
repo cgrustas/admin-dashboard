@@ -131,7 +131,7 @@
     - links
 */
 
-/* 'trending-links' flex container holds: 
+/* 'trending-links' grid container holds: 
     - row1: avatar + username
     - row2: avatar + bio
     - col1: avatar
