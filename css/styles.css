@@ -79,6 +79,24 @@ input {
 
 main {
     grid-area: main;
+    display: grid;
+    grid-template-areas: 
+        "projects announcements"
+        "projects trending";
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 3fr 1fr;
+}
+
+.projects {
+    grid-area: projects;
+}
+
+.announcements {
+    grid-area: announcements;
+}
+
+.trending {
+    grid-area: trending;
 }
 
 /* Temporary constraint for avatar images during development */
