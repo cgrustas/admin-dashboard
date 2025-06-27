@@ -89,6 +89,8 @@ main {
 
 .projects {
     grid-area: projects;
+    display: flex;
+    flex-direction: column;
 }
 
 .announcements {
