@@ -80,7 +80,7 @@ input {
 main {
     grid-area: main;
     display: grid;
-    grid-template-areas: 
+    grid-template-areas:
         "projects announcements"
         "projects trending";
     grid-template-rows: 1fr 1fr;
@@ -98,19 +98,10 @@ main {
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 }
 
-
-/* 
-Implement project article flex layout 
-
-A project holds: 
- - project title (flex: initial)
- - project description (flex: initial)
- - action buttons (flex: initial)
-*/
-/* .projects article {
+.projects article {
     display: flex;
     flex-direction: column;
-} */
+}
 
 .announcements {
     grid-area: announcements;
