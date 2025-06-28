@@ -16,6 +16,14 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 600;
 }
 
+.sidebar img,
+.notification-bell img,
+.projects article .actions img {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+
 button,
 input {
     appearance: none;
@@ -58,8 +66,6 @@ input {
 
 .sidebar img {
     filter: invert(1);
-    width: 1.5rem;
-    height: 1.5rem;
     justify-self: center;
 }
 
@@ -112,11 +118,6 @@ input:focus {
 
 .user-menu h2 {
     font-size: 1rem;
-}
-
-.notification-bell img {
-    height: 1.25rem;
-    width: 1.25rem;
 }
 
 .action-bar {
@@ -220,11 +221,6 @@ main h2 {
     display: flex;
     align-self: flex-end;
     gap: 1rem;
-}
-
-.projects article .actions>button {
-    width: 2rem;
-    height: 2rem;
 }
 
 .announcements {
