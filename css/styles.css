@@ -303,7 +303,7 @@ main h6 {
 
 .trending-users h3 {
     grid-area: username;
-    /* font-size: 1rem; */
+    font-size: 1rem;
 }
 
 .trending-users h6 {
