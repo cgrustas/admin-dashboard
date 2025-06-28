@@ -12,7 +12,12 @@ a {
     text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-weight: 600;
 }
 
@@ -244,12 +249,22 @@ main h6 {
 .announcements .content {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
 }
 
 .announcements article {
     display: flex;
     flex-direction: column;
+    padding: 1rem 0;
+    border-bottom: 1px solid rgb(237, 237, 237);
+}
+
+.announcements article:first-child {
+    padding-top: 0;
+}
+
+.announcements article:last-child {
+    padding-bottom: 0;
+    border-bottom: none;
 }
 
 .announcements article h3 {
@@ -259,9 +274,6 @@ main h6 {
 .announcements article p {
     font-size: .8rem;
 }
-
-/* add to announcements article :not last child
-border-bottom: 1px solid rgb(237, 237, 237); */
 
 .trending {
     grid-area: trending;
