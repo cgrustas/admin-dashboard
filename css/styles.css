@@ -246,6 +246,17 @@ main h6 {
     flex-direction: column;
 }
 
+.announcements article h3 {
+    font-size: 1rem;
+}
+
+.announcements article p {
+    font-size: .8rem;
+}
+
+/* add to announcements article :not last child
+border-bottom: 1px solid rgb(237, 237, 237); */
+
 .trending {
     grid-area: trending;
     display: flex;
