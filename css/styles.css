@@ -184,6 +184,14 @@ main h6 {
     color: rgb(102, 102, 102);
 }
 
+.announcements .content,
+.trending-users,
+.projects article {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 12px;
+}
+
 .projects {
     grid-area: projects;
     display: flex;
@@ -200,9 +208,7 @@ main h6 {
 
 .projects article {
     position: relative;
-    border-radius: 12px;
     background-color: white;
-    padding: 40px 32px;
     display: flex;
     flex-direction: column;
 }
