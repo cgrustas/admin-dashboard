@@ -94,19 +94,13 @@ input {
     width: 100%;
 }
 
-/* 
-Update search bar's border color scheme
-
- - Replace default outline with dark grey border on input: focus
- - Round border-radius by 16px
-*/
-/* input:focus {
+input:focus {
     outline: none;
     border: darkgrey solid 2px;
-} */
+}
 
 .user-menu {
-    flex: none; 
+    flex: none;
     display: flex;
     align-items: center;
     gap: 1rem;
@@ -187,7 +181,7 @@ main {
     gap: 1rem;
 }
 
-.projects article .actions > button {
+.projects article .actions>button {
     width: 2rem;
     height: 2rem;
 }
