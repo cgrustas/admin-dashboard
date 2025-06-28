@@ -74,7 +74,7 @@ form {
     display: grid;
     grid-template-columns: 1.25rem auto;
     align-items: center;
-    gap: 16px;
+    gap: 1rem;
 }
 
 input {
@@ -109,7 +109,7 @@ input {
 
 .action-bar .actions {
     display: flex;
-    gap: 48px;
+    gap: 3rem;
     align-items: center;
 }
 
@@ -155,7 +155,7 @@ main {
 .projects article .actions {
     display: flex;
     align-self: flex-end;
-    gap: 16px;
+    gap: 1rem;
 }
 
 .projects article .actions>button {
