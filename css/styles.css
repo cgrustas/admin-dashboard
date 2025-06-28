@@ -146,6 +146,8 @@ input:focus {
 }
 
 .action-bar .actions button {
+    background-color: rgb(0, 174, 255);
+    color: white;
     flex: 1;
     min-width: 0;
     display: flex;
