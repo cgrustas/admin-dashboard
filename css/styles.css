@@ -191,6 +191,7 @@ main h2 {
 
 .projects article {
     background-color: white;
+    padding: 40px 32px;
     display: flex;
     flex-direction: column;
 }
