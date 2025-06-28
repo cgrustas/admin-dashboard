@@ -179,6 +179,11 @@ main h2 {
     font-size: 1.25rem;
 }
 
+main p,
+main h6 {
+    color: rgb(102, 102, 102);
+}
+
 .projects {
     grid-area: projects;
     display: flex;
@@ -215,7 +220,6 @@ main h2 {
 
 .projects article p {
     flex: 1;
-    color: rgb(102, 102, 102);
 }
 
 .projects article .actions {
