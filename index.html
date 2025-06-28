@@ -61,8 +61,10 @@
     <header>
         <div class="system-bar">
             <form>
-                <!-- action and method attributes are purposefully left blank here, as these are beyond the scope of the project -->
-                <input type="search" name="search" aria-label="search">
+                <label for="search">
+                    <img src="images/search.svg" alt="" aria-hidden="true">
+                </label>
+                <input type="search" name="search" id="search" aria-label="search">
             </form>
             <div class="user-menu">
                 <button class="notification-bell" type="button">
