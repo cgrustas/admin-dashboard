@@ -12,12 +12,6 @@ a {
     text-decoration: none;
 }
 
-/* Commit 2:
-Update sidebar typography
-- Set h1 font-size to 2rem
-- Set navigation link font-size to 1.25rem  
-- Set navigation link font-weight to bold
-*/
 .sidebar {
     grid-area: sidebar;
     padding: 16px;
@@ -28,18 +22,27 @@ Update sidebar typography
     color: white;
 }
 
-.sidebar nav {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-}
-
 .sidebar h1,
 .sidebar a {
     display: grid;
     grid-template-columns: 2.5rem auto;
     align-items: center;
     gap: 1rem;
+}
+
+.sidebar h1 {
+    font-size: 1.75rem;
+}
+
+.sidebar nav {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.sidebar nav a span {
+    font-size: 1.25rem;
+    font-weight: bold;
 }
 
 .sidebar img {
