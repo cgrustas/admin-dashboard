@@ -131,6 +131,14 @@ input:focus {
     height: 5rem;
 }
 
+.user-greeting h6 {
+    font-size: .8rem;
+}
+
+.user-greeting h2 {
+    font-size: 1.5rem;
+}
+
 .action-bar .actions {
     display: flex;
     gap: 1.5rem;
