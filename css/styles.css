@@ -190,6 +190,7 @@ main h2 {
 }
 
 .projects article {
+    border-radius: 12px;
     background-color: white;
     padding: 40px 32px;
     display: flex;
