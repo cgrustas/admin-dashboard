@@ -121,8 +121,7 @@ input:focus {
 }
 
 .user-greeting {
-    display: grid;
-    grid-template-columns: auto max-content;
+    display: flex;
     align-items: center;
 }
 
