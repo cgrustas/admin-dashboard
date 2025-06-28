@@ -190,11 +190,23 @@ main h2 {
 }
 
 .projects article {
+    position: relative;
     border-radius: 12px;
     background-color: white;
     padding: 40px 32px;
     display: flex;
     flex-direction: column;
+}
+
+.projects article::before {
+    position: absolute;
+    content: "";
+    background-color: goldenrod;
+    border-radius: 12px 0 0 12px;
+    top: 0;
+    left: 0;
+    width: 2%;
+    height: 100%;
 }
 
 .projects article p {
