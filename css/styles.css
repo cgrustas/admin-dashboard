@@ -186,6 +186,7 @@ main h2 {
 }
 
 .projects article {
+    background-color: white;
     display: flex;
     flex-direction: column;
 }
