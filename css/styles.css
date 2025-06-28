@@ -12,7 +12,8 @@ a {
     text-decoration: none;
 }
 
-button {
+button,
+input {
     appearance: none;
     background-color: inherit;
     border: none;
