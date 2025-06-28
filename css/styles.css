@@ -96,6 +96,10 @@ input {
     gap: 1rem;
 }
 
+.user-menu h2 {
+    font-size: 1rem;
+}
+
 .notification-bell img {
     height: 1.25rem;
     width: 1.25rem;
