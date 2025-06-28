@@ -292,7 +292,7 @@ main h6 {
     grid-template-areas:
         "avatar username"
         "avatar bio";
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-rows: auto auto;
     align-items: center;
 }
 
