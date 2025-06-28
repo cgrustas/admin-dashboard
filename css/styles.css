@@ -285,6 +285,7 @@ main h6 {
 .trending-users {
     display: flex;
     flex-direction: column;
+    gap: 1.25rem;
 }
 
 .trending-users a {
@@ -302,6 +303,7 @@ main h6 {
 
 .trending-users h3 {
     grid-area: username;
+    /* font-size: 1rem; */
 }
 
 .trending-users h6 {
