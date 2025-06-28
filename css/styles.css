@@ -241,6 +241,12 @@ main h6 {
     gap: .5rem;
 }
 
+.announcements .content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
 .announcements article {
     display: flex;
     flex-direction: column;
