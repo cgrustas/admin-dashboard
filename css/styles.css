@@ -123,6 +123,7 @@ input:focus {
 .user-greeting {
     display: flex;
     align-items: center;
+    gap: 1rem;
 }
 
 .user-greeting img {
