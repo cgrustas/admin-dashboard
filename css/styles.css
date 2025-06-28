@@ -84,6 +84,8 @@ input {
 .user-menu {
     flex: none; 
     display: flex;
+    align-items: center;
+    gap: 1rem;
 }
 
 .notification-bell img {
