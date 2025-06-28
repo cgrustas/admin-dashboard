@@ -179,6 +179,7 @@ main h2 {
     grid-area: projects;
     display: flex;
     flex-direction: column;
+    gap: .5rem;
 }
 
 .projects .content {
@@ -212,6 +213,7 @@ main h2 {
     grid-area: announcements;
     display: flex;
     flex-direction: column;
+    gap: .5rem;
 }
 
 .announcements article {
@@ -223,6 +225,7 @@ main h2 {
     grid-area: trending;
     display: flex;
     flex-direction: column;
+    gap: .5rem;
 }
 
 .trending-users {
