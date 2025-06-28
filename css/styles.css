@@ -159,6 +159,7 @@ input:focus {
 
 main {
     background-color: rgb(237, 237, 237);
+    padding: 32px 24px;
     grid-area: main;
     display: grid;
     grid-template-areas:
