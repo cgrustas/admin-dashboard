@@ -59,8 +59,10 @@ a {
 
 header {
     grid-area: header;
+    padding: 1rem 2rem;
     display: flex;
     flex-direction: column;
+    gap: 1rem;
 }
 
 .system-bar {
