@@ -169,6 +169,10 @@ main {
     grid-template-columns: 3fr 1fr;
 }
 
+main h2 {
+    font-size: 1.25rem;
+}
+
 .projects {
     grid-area: projects;
     display: flex;
