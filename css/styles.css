@@ -12,6 +12,12 @@ a {
     text-decoration: none;
 }
 
+button {
+    appearance: none;
+    background-color: inherit;
+    border: none;
+}
+
 .sidebar {
     grid-area: sidebar;
     padding: 16px;
@@ -118,7 +124,6 @@ input {
 }
 
 .action-bar .actions button {
-    appearance: none;
     flex: 1;
     min-width: 0;
     display: flex;
@@ -162,7 +167,7 @@ main {
     gap: 1rem;
 }
 
-.projects article .actions>button {
+.projects article .actions > button {
     width: 2rem;
     height: 2rem;
 }
