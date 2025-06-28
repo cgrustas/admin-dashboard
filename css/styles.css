@@ -87,8 +87,23 @@ form {
 }
 
 input {
+    padding: 0 1rem;
+    border-radius: 16px;
+    background-color: lightgrey;
+    height: 80%;
     width: 100%;
 }
+
+/* 
+Update search bar's border color scheme
+
+ - Replace default outline with dark grey border on input: focus
+ - Round border-radius by 16px
+*/
+/* input:focus {
+    outline: none;
+    border: darkgrey solid 2px;
+} */
 
 .user-menu {
     flex: none; 
